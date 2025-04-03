@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+        }
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile {
+            text-align: center;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .project {
+            width: 48%;
+            background: #f9f9f9;
+            margin: 10px 0;
+            padding: 15px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 15px;
+            background: #333;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>Meu Portfólio</header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="sobre" class="profile">
+            <img src="./img's/Screenshot_1.png" alt="Minha Foto">
+            <h2>Seu Nome</h2>
+            <p>Breve descrição sobre você, suas habilidades e experiência.</p>
+        </section>
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição breve do projeto.</p>
+                </div>
+                <div class="project">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição breve do projeto.</p>
+                </div>
+                <div class="project">
+                    <h3>Projeto 3</h3>
+                    <p>Descrição breve do projeto.</p>
+                </div>
+                <div class="project">
+                    <h3>Projeto 4</h3>
+                    <p>Descrição breve do projeto.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="contact">
+            <h2>Contato</h2>
+            <p>Email: seuemail@example.com</p>
+            <p>LinkedIn: <a href="#">linkedin.com/seuperfil</a></p>
+            <p>GitHub: <a href="#">github.com/seuperfil</a></p>
+        </section>
+    </div>
+    <footer>&copy; 2025 Seu Nome - Todos os direitos reservados</footer>
+</body>
+</html>
